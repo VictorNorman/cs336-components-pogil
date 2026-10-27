@@ -45,4 +45,4 @@ npm run dev   # Angular: npm start
     `ownership_invalid_mutation` warning ("Mutating unbound props … is strongly discouraged").
   - Angular: the card shows "(adopted)" but the header stays "2 cats available".
 
-Versions: Vite 7 (Vite 8 does not run in StackBlitz), Vue 3.5, React 19, Svelte 5, Angular 22 (zoneless, TypeScript 6.0).
+Versions: Vite 7 (Vite 8 does not run in StackBlitz), Vue 3.5, React 19, Svelte 5, Angular 21 (zoneless, TypeScript 5.9; Angular 22 requires Vite 8, which does not run in StackBlitz).
