@@ -23,6 +23,8 @@ Push this folder to a public GitHub repo, then replace `VictorNorman/cs336-compo
 - Svelte: `https://stackblitz.com/github/VictorNorman/cs336-components-pogil/tree/main/svelte?file=src/App.svelte`
 - Angular: `https://stackblitz.com/github/VictorNorman/cs336-components-pogil/tree/main/angular?file=src/app/app.ts`
 
+**If StackBlitz sits on "Cloning repo from GitHub" for more than about 10 seconds, reload the page.** The import sometimes stalls on the first try and works on the second. Tell students this up front.
+
 StackBlitz needs a Chromium browser such as Chrome or Edge. It reads each folder's `.stackblitzrc`, installs dependencies, and starts the dev
 server automatically. Students' edits stay in their own fork; the repo is never changed.
 
