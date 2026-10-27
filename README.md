@@ -23,7 +23,7 @@ Push this folder to a public GitHub repo, then replace `VictorNorman/cs336-compo
 - Svelte: `https://stackblitz.com/github/VictorNorman/cs336-components-pogil/tree/main/svelte?file=src/App.svelte`
 - Angular: `https://stackblitz.com/github/VictorNorman/cs336-components-pogil/tree/main/angular?file=src/app/app.ts`
 
-StackBlitz reads each folder's `.stackblitzrc`, installs dependencies, and starts the dev
+StackBlitz needs a Chromium browser such as Chrome or Edge. It reads each folder's `.stackblitzrc`, installs dependencies, and starts the dev
 server automatically. Students' edits stay in their own fork; the repo is never changed.
 
 ## Running locally
@@ -45,4 +45,4 @@ npm run dev   # Angular: npm start
     `ownership_invalid_mutation` warning ("Mutating unbound props … is strongly discouraged").
   - Angular: the card shows "(adopted)" but the header stays "2 cats available".
 
-Versions: Vite 8, Vue 3.5, React 19, Svelte 5, Angular 22 (zoneless, TypeScript 6.0).
+Versions: Vite 7 (Vite 8 does not run in StackBlitz), Vue 3.5, React 19, Svelte 5, Angular 22 (zoneless, TypeScript 6.0).
