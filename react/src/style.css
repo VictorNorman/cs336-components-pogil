@@ -1,0 +1,26 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 24px;
+}
+
+button {
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  border: 1px solid gray;
+  padding: 8px;
+  margin-bottom: 8px;
+  max-width: 360px;
+}
+
+li span {
+  margin-left: 4px;
+  color: gray;
+}
